@@ -11,12 +11,12 @@
             margin: 0;
             padding: 0;
         }
-        .container{
-            height: 200px;
-            width: 200px;
-            background-color: red;
-            color: white;
+        .myCanvas{
+            /* height: 600;
+            width: 500; */
+          border: 2px solid black;
         }
+       
         button{
             border: none;
             background-color: royalblue;
@@ -26,10 +26,9 @@
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>This is sample site</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis eius veniam magni culpa, obcaecati similique.</p>
-        <button>click me</button>
-    </div>
+    <h1>Simple White Board</h1>
+    <canvas id="canvas" height="600" width="1000" class="myCanvas"></canvas>
+
+    <script src="app.js"></script>
 </body>
 </html>
